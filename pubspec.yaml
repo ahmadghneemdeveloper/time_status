@@ -1,0 +1,51 @@
+name: time_status
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^0.22.0
+  font_awesome_flutter: ^9.2.0
+  get: ^4.6.5
+  lottie: ^1.2.2
+  smooth_page_indicator: ^1.1.0
+  fluttertoast: ^8.2.2
+  badges: ^3.1.1
+  shared_preferences: ^2.2.0
+  http: ^0.13.4  # Updated version constraint
+  dartz: ^0.10.1
+  multiselect: ^0.0.4
+  date_format: ^2.0.7
+  connectivity_plus: ^4.0.2
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/animation/
+    - assets/icons/
+  fonts:
+    - family: Neo Sans Arabic
+      fonts:
+        - asset: assets/fonts/NeoSansArabic.ttf
+    - family: Cadillac Sans Arabic Medium
+      fonts:
+        - asset: assets/fonts/Cadillac-Sans-Arabic-Medium.ttf
